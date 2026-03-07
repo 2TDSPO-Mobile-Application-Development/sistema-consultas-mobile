@@ -78,13 +78,12 @@ export default function App() {
           {/* Cabeçalho */}
         </View>
 
-        <View style={styles.card}>
-          {/* 100+ LINHAS de JSX do card aqui! */}
-          <View style={styles.statusBadge}>...</View>
-          <View style={styles.secao}>...</View>
-          <View style={styles.secao}>...</View>
-          <View style={styles.acoes}>...</View>
-        </View>
+        {/* 1 linha! Limpo, elegante, reutilizável */}
+        <ConsultaCard
+          consulta={consulta}
+          onConfirmar={confirmarConsulta}
+          onCancelar={cancelarConsulta}
+        />
 
         <View style={styles.rodape}>
           {/* Rodapé */}
