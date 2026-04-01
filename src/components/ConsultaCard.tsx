@@ -1,8 +1,6 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
 import { Consulta } from "../interfaces/consulta";
-
-// Agora essa importação vai funcionar perfeitamente!
 import { styles } from "../styles/consultaCard.styles";
 
 type ConsultaCardProps = {
@@ -16,7 +14,6 @@ export default function ConsultaCard({
   onConfirmar,
   onCancelar,
 }: ConsultaCardProps) {
-  
   function formatarValor(valor: number): string {
     return valor.toLocaleString("pt-BR", {
       style: "currency",
@@ -24,10 +21,8 @@ export default function ConsultaCard({
     });
   }
 
-  // Com a proteção extra para a data não "crachar" o app
-  function formatarData(data: Date | string): string {
-    const dataObj = new Date(data);
-    return dataObj.toLocaleDateString("pt-BR");
+  function formatarData(data: Date): string {
+    return data.toLocaleDateString("pt-BR");
   }
 
   return (
@@ -80,7 +75,7 @@ export default function ConsultaCard({
                 <Button
                   title="Confirmar Consulta"
                   onPress={onConfirmar}
-                  color="#16be1c"
+                  color="#4CAF50"
                 />
               </View>
             )}
@@ -89,7 +84,7 @@ export default function ConsultaCard({
                 <Button
                   title="Cancelar Consulta"
                   onPress={onCancelar}
-                  color="#e91809"
+                  color="#F44336"
                 />
               </View>
             )}
