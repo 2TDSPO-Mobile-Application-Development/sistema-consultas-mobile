@@ -12,7 +12,6 @@ import {
   ScrollView,
 } from "react-native";
 
-
 type HomeScreenProps = {
   navigation: any;
 };
