@@ -2,7 +2,7 @@
  * ConsultaDetalhesScreen - Detalhes da Consulta
  * Exibe informações completas de uma consulta específica
  */
-import { styles } from "../styles/consultadetalhesScreen";
+import { styles } from "../styles/consultadetalhesScreen.styles";
 import React, { useState, useEffect } from "react";
 import {
   View,
