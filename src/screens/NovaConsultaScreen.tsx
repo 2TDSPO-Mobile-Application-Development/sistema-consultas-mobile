@@ -5,7 +5,6 @@
 
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
-
 import { styles } from "../styles/novaConsultaScreen.styles";
 
 type NovaConsultaScreenProps = {

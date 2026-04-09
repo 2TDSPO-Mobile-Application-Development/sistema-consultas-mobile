@@ -6,8 +6,8 @@ import {
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { styles } from "../styles/minhasConsultas.styles";
-// Componente não utilizado na versão simplificada
 
+// Componente não utilizado na versão simplificada
 type MinhasConsultasProps = {
   onNavigateToAgendamento: () => void;
   onLogout: () => void;

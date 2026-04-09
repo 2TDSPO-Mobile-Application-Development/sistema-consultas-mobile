@@ -6,8 +6,8 @@ import {
   ScrollView,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
-// Componente não utilizado na versão simplificada
 
+// Componente não utilizado na versão simplificada
 type AgendamentoProps = {
   onAgendamentoSuccess: () => void;
 };
