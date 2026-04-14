@@ -13,7 +13,7 @@ type LoadingProps = {
 export default function Loading({ mensagem = "Carregando..." }: LoadingProps) {
   return (
     <View style={styles.container}>
-      <ActivityIndicator size="large" color="#79059C" />
+      <ActivityIndicator size="large" color="#c300ff" />
       <Text style={styles.texto}>{mensagem}</Text>
     </View>
   );
