@@ -19,7 +19,7 @@ export default function Agendamento({
     <View style={styles.container}>
       <StatusBar style="light" />
       <View style={styles.header}>
-        <Text style={styles.titulo}>📅 Agendar Consulta</Text>
+        <Text style={styles.titulo}>Agendar Consulta</Text>
       </View>
       <ScrollView style={styles.content}>
         <View style={styles.etapa}>

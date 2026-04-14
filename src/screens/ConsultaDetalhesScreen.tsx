@@ -135,7 +135,7 @@ export default function ConsultaDetalhesScreen({
 
         {/* Seção Data e Hora */}
         <View style={styles.secao}>
-          <Text style={styles.secaoTitulo}>📅 Agendamento</Text>
+          <Text style={styles.secaoTitulo}>Agendamento</Text>
           <View style={styles.card}>
             <View style={styles.row}>
               <View style={styles.coluna}>

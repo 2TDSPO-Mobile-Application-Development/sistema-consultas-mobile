@@ -30,7 +30,7 @@ export default function Navigation() {
         initialRouteName="Home"
         screenOptions={{
           headerStyle: {
-            backgroundColor: "#79059C",
+            backgroundColor: "#0367fd",
           },
           headerTintColor: "#fff",
           headerTitleStyle: {

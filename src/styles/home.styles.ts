@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#EAEAEA",
   },
   scrollContent: {
     padding: 20,
@@ -15,12 +15,12 @@ export const styles = StyleSheet.create({
   titulo: {
     fontSize: 28,
     fontWeight: "bold",
-    color: "#79059C",
+    color: "#000",
     marginBottom: 8,
   },
   subtitulo: {
     fontSize: 16,
-    color: "#666",
+    color: "#3b3838",
   },
   menu: {
     gap: 16,
@@ -35,16 +35,16 @@ export const styles = StyleSheet.create({
     elevation: 3,
   },
   cardPrimario: {
-    backgroundColor: "#79059C",
+    backgroundColor: "#410404",
   },
   cardSecundario: {
-    backgroundColor: "#4CAF50",
+    backgroundColor: "#0f8613",
   },
   cardTerciario: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "#12578f",
   },
   cardQuaternario: {
-    backgroundColor: "#FF9800",
+    backgroundColor: "#8f5e14",
   },
   cardIcone: {
     fontSize: 48,
